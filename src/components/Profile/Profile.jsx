@@ -6,7 +6,7 @@ import PropTypes from 'prop-types';
 export default function Profile({name, tag, location, image, stats}) {
   return (
     <div className= {css.profile_container}>
-      <div className= {css}>
+      <div>
         <div className= {css.img_wrapper}>
           <img className= {css.img}
             src={image}

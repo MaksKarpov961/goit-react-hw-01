@@ -13,6 +13,7 @@ export default function App () {
         image={userData.avatar}
         stats={userData.stats}
       />
+      
     </div>
   )
 }
