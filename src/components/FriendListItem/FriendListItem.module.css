@@ -1,0 +1,40 @@
+.friend_item{
+  border: solid 3px black;
+  padding: 15px;
+  border-radius: 15px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.friend_img{
+  width: 100%;
+}
+
+
+.friend_name{
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 1.33;
+  letter-spacing: 0.01em;
+  color: black;
+}
+
+.friend_online{
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 1.33;
+  letter-spacing: 0.01em;
+  color: green;
+}
+
+.friend_ofline{
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 1.33;
+  letter-spacing: 0.01em;
+  color: red;
+
+}
