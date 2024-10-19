@@ -43,3 +43,15 @@ img {
 .section {
   padding: 60px 0;
 }
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+    padding: 0 15px;
+  }
+
+  .section {
+    padding: 60px 0;
+  }
+
+}
